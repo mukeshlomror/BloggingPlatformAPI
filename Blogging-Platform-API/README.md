@@ -24,7 +24,7 @@ The Controller layer handles the incoming HTTP requests and manages the routing 
 - Comment creation and retrieval
 ## Endpoints
 ### User Endpoints:
-![User_Controller](https://github.com/mukeshlomror/Blogging-Platform-API/assets/54076057/1ab0820d-fea6-4022-a98b-5cf26ab1bbd2)
+![User_Controller](https://github.com/mukeshlomror/BloggingPlatformAPI/assets/54076057/69b5189e-c014-4618-bd54-1e9f605c8ba8)
 
 ```
 - **POST /api/users/create -** Create a new user.
@@ -37,7 +37,7 @@ The Controller layer handles the incoming HTTP requests and manages the routing 
 ```
 
 ### Post Endpoints:
-![Post_Controller](https://github.com/mukeshlomror/Blogging-Platform-API/assets/54076057/33a6f11f-6312-4966-91be-c5c956c650f3)
+![Post_Controller](https://github.com/mukeshlomror/BloggingPlatformAPI/assets/54076057/31a2684c-80b6-4971-8c37-d576998ee12c)
 
 ```
 - **POST /api/posts/create -** Create a new post.
@@ -52,7 +52,7 @@ The Controller layer handles the incoming HTTP requests and manages the routing 
 ```
 
 ### Category Endpoints:
-![Category_Controller](https://github.com/mukeshlomror/Blogging-Platform-API/assets/54076057/67d9c303-f753-45a9-bb9e-dc41e1517bf0)
+![Category_Controller](https://github.com/mukeshlomror/BloggingPlatformAPI/assets/54076057/27b64262-eddc-41e3-a87b-0af57b5f6c15)
 
 ```
 - **POST /api/categories/create -** Create an Category.
@@ -63,7 +63,7 @@ The Controller layer handles the incoming HTTP requests and manages the routing 
 ```
 
 ### Comment Endpoints:
-![Comment_Controller](https://github.com/mukeshlomror/Blogging-Platform-API/assets/54076057/604f2195-0088-4520-bfb4-4fcd6a4594f6)
+![Comment_Controller](https://github.com/mukeshlomror/BloggingPlatformAPI/assets/54076057/76186a07-7899-4036-a53c-4afd90251a6e)
 
 ```
 - **POST /api/comments/create/post/{postId} -** Add a comment to a post.
@@ -89,7 +89,7 @@ The Repository layer is responsible for interacting with the underlying database
 ```
 
 ## Database Design and Schemas:
-![Blog_Schemas](https://github.com/mukeshlomror/Blogging-Platform-API/assets/54076057/b483e9ff-217c-4c10-94a8-bdded9d4db03)
+![Blog_Schemas](https://github.com/mukeshlomror/BloggingPlatformAPI/assets/54076057/985f4d1c-79ac-4fde-89f3-e3250f515242)
 
 The database design for the Blogging Platform API follows the object-relational mapping (ORM) approach provided by Spring Data JPA. The entities (such as User, Post, Follow, Comment) are mapped to database tables, and the relationships between them are defined using annotations. The data is persisted in a relational database, such as MySQL.
 
